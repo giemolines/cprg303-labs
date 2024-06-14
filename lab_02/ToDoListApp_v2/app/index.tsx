@@ -5,14 +5,12 @@ import ToDoForm from './ToDoForm'
 
 const index = () => {
   return (
-   <View>
+   <SafeAreaView>
     <ToDoForm></ToDoForm>
     <ScrollView style={styles.taskView}>
       <Pressable style={styles.pressableTask}>
         <View style={styles.task}>
-          <View style={styles.taskTitleHeader}>
-            <Text style={styles.taskTitle}>Task # 1</Text>
-          </View>
+          <View style={styles.taskTitleHeader}></View>
           <View style={styles.taskInfoBody}>
             <Text style={styles.taskInfo}> 🛒 Buy groceries</Text>
           </View>
@@ -20,9 +18,7 @@ const index = () => {
       </Pressable>
       <Pressable style={styles.pressableTask}>
         <View style={styles.task}>
-          <View style={styles.taskTitleHeader}>
-            <Text style={styles.taskTitle}>Task # 2</Text>
-          </View>
+          <View style={styles.taskTitleHeader}></View>
           <View style={styles.taskInfoBody}>
             <Text style={styles.taskInfo}>🐕 Walk the dog</Text>
           </View>
@@ -30,9 +26,7 @@ const index = () => {
       </Pressable>
       <Pressable style={styles.pressableTask}>
         <View style={styles.task}>
-          <View style={styles.taskTitleHeader}>
-            <Text style={styles.taskTitle}>Task # 3</Text>
-          </View>
+          <View style={styles.taskTitleHeader}></View>
           <View style={styles.taskInfoBody}>
             <Text style={styles.taskInfo}>📚 Finish homework</Text>
           </View>
@@ -40,9 +34,7 @@ const index = () => {
       </Pressable>
       <Pressable style={styles.pressableTask}>
         <View style={styles.task}>
-          <View style={styles.taskTitleHeader}>
-            <Text style={styles.taskTitle}>Task # 4</Text>
-          </View>
+          <View style={styles.taskTitleHeader}></View>
           <View style={styles.taskInfoBody}>
             <Text style={styles.taskInfo}>📞 Call mom</Text>
           </View>
@@ -50,9 +42,7 @@ const index = () => {
       </Pressable>
       <Pressable style={styles.pressableTask}>
         <View style={styles.task}>
-          <View style={styles.taskTitleHeader}>
-            <Text style={styles.taskTitle}>Task # 5</Text>
-          </View>
+          <View style={styles.taskTitleHeader}></View>
           <View style={styles.taskInfoBody}>
             <Text style={styles.taskInfo}> 💪 Go to the gym</Text>
           </View>
@@ -60,9 +50,7 @@ const index = () => {
       </Pressable>
       <Pressable style={styles.pressableTask}>
         <View style={styles.task}>
-          <View style={styles.taskTitleHeader}>
-            <Text style={styles.taskTitle}>Task # 6</Text>
-          </View>
+          <View style={styles.taskTitleHeader}></View>
           <View style={styles.taskInfoBody}>
             <Text style={styles.taskInfo}> 📖 Read a book</Text>
           </View>
@@ -70,9 +58,7 @@ const index = () => {
       </Pressable>
       <Pressable style={styles.pressableTask}>
         <View style={styles.task}>
-          <View style={styles.taskTitleHeader}>
-            <Text style={styles.taskTitle}>Task # 7</Text>
-          </View>
+          <View style={styles.taskTitleHeader}></View>
           <View style={styles.taskInfoBody}>
             <Text style={styles.taskInfo}>💸 Pay bills</Text>
           </View>
@@ -80,9 +66,7 @@ const index = () => {
       </Pressable>
       <Pressable style={styles.pressableTask}>
         <View style={styles.task}>
-          <View style={styles.taskTitleHeader}>
-            <Text style={styles.taskTitle}>Task # 8</Text>
-          </View>
+          <View style={styles.taskTitleHeader}></View>
           <View style={styles.taskInfoBody}>
             <Text style={styles.taskInfo}> 🧹 Clean the house</Text>
           </View>
@@ -90,9 +74,7 @@ const index = () => {
       </Pressable>
       <Pressable style={styles.pressableTask}>
         <View style={styles.task}>
-          <View style={styles.taskTitleHeader}>
-            <Text style={styles.taskTitle}>Task # 9</Text>
-          </View>
+          <View style={styles.taskTitleHeader}></View>
           <View style={styles.taskInfoBody}>
             <Text style={styles.taskInfo}> 🎬 Watch a movie</Text>
           </View>
@@ -100,16 +82,14 @@ const index = () => {
       </Pressable>
       <Pressable style={styles.pressableTask}>
         <View style={styles.task}>
-          <View style={styles.taskTitleHeader}>
-            <Text style={styles.taskTitle}>Task # 10</Text>
-          </View>
+          <View style={styles.taskTitleHeader}></View>
           <View style={styles.taskInfoBody}>
             <Text style={styles.taskInfo}> ✈️ Plan vacation</Text>
           </View>
         </View>
       </Pressable>
     </ScrollView>
-    </View>
+  </SafeAreaView>
   )
 }
 
