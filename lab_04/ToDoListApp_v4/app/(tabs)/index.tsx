@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Pressable, SafeAreaView, ScrollView, StyleSheet, Text, View } from 'react-native';
-import ToDoForm from './ToDoForm'; // Adjust the import path as per your project structure
+import ToDoForm from './ToDoForm'; 
 
 const App = () => {
   const [tasks, setTasks] = useState<{ title: string }[]>([
